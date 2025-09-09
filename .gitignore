@@ -25,3 +25,35 @@ replay_pid*
 
 # Kotlin Gradle plugin data, see https://kotlinlang.org/docs/whatsnew20.html#new-directory-for-kotlin-data-in-gradle-projects
 .kotlin/
+
+# IntelliJ IDEA 项目文件
+*.iml
+# Gradle 缓存目录
+.gradle
+# 构建输出目录
+**/build/
+# Xcode 用户数据
+xcuserdata
+# 保留源码中的 build 目录
+!src/**/build/
+# 本地属性文件
+local.properties
+# IDEA 配置目录
+.idea
+# macOS 系统文件
+.DS_Store
+# 截图目录
+captures
+# CMake 外部构建目录
+.externalNativeBuild
+# CMake 构建缓存目录
+.cxx
+# 忽略 Xcode 项目文件夹
+*.xcodeproj/*
+# 保留 Xcode 项目配置文件
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+!*.xcodeproj/project.xcworkspace/
+!*.xcworkspace/contents.xcworkspacedata
+# 忽略 Xcode 共享数据设置
+**/xcshareddata/WorkspaceSettings.xcsettings
